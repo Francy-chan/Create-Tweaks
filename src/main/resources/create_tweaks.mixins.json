@@ -4,6 +4,7 @@
   "package": "org.moon.create_tweaks.mixin",
   "compatibilityLevel": "JAVA_16",
   "client": [
+    "ForgeEventsMixin",
     "StressGaugeTileEntityMixin"
   ],
   "injectors": {
