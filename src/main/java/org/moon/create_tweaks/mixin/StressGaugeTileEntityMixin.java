@@ -1,4 +1,4 @@
-package org.moon.frans_create_tweaks.mixin;
+package org.moon.create_tweaks.mixin;
 
 import com.simibubi.create.content.contraptions.base.IRotate.StressImpact;
 import com.simibubi.create.content.contraptions.goggles.IHaveGoggleInformation;
