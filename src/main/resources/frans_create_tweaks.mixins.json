@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.moon.frans_create_tweaks.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+    "StressGaugeTileEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "frans_create_tweaks",
+  "version": "${version}",
+
+  "name": "Figura Entrypoint Example",
+  "description": "Example mod for custom Lua APIs in Figura",
+  "authors": [
+    "Francy-Chan"
+  ],
+  "contact": {
+    "homepage": "http://figura.blancworks.org",
+    "sources": "https://github.com/Blancworks/Figura/",
+    "issues": "https://github.com/Blancworks/Figura/issues"
+  },
+
+  "license": "LGPL-2.1",
+  "icon": "assets/frans_create_tweaks/icon.png",
+
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "frans_create_tweaks.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "minecraft": ">=1.18-",
+    "java": ">=16",
+    "create": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
